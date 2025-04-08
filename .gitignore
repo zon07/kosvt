@@ -1,0 +1,73 @@
+# Временные файлы Altium
+*.~*
+*.bak
+*.SchDocPreview
+*.PcbDocPreview
+*.PrjPcbPreview
+*.History
+*.DWF
+*.LOG
+
+# Файлы автосохранения
+*.autosave
+
+# Папки и файлы кэша
+History/
+__Previews/
+
+# Файлы проектов и выходные файлы
+!*.OutJob
+!*.PrjPcbStructure
+!*.Harness
+!*.SimModel
+!*.SimView
+!*.SimTemplate
+!*.SimData
+!*.StepFiles
+
+# Файлы отчетов и журналов
+!*.html
+!*.htm
+!*.csv
+!*.txt
+!*.xml
+!*.xls
+!*.xlsx
+!*/*.xls
+!*/*.xlsx
+
+# Файлы печатных плат и производственные файлы
+!*.Gerber
+!*.NC Drill
+!*.IPC
+!*.ODB++
+!*.PickPlace
+!*.DRC
+!*.CAM
+
+# Файлы библиотек и моделей
+!*.IntLib
+!*.PcbLib
+!*.SchLib
+!*.VhdLib
+!*.SimModel
+!*.mdl
+!*.ckt
+
+# Системные файлы и настройки
+*.DS_Store
+Thumbs.db
+!*.ini
+!*.cfg
+
+# Файлы пользовательских настроек
+!*.Rul
+!*.DXPW*
+!*.DXPPreferences
+!*.Workspace
+
+# Файлы резервных копий
+!*.zip
+!*.7z
+!*.rar
+!*.backup
