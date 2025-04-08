@@ -49,6 +49,11 @@ CrossRefFollowFromMainSettings=1
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
+[Release]
+ReleaseTarget=1
+ReleaseFolderPath=[OutputPath]
+ReleaseZipPath=[OutputPath][ProjectName].zip
+
 [Document1]
 DocumentPath=MAIN.SchDoc
 AnnotationEnabled=1
@@ -100,15 +105,137 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FKJVJIDT
 
+[Document4]
+DocumentPath=Job1.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document5]
+DocumentPath=Project Outputs for KOSVT\KOSVT_ПЭ3.xls
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[ProjectVariant1]
+UniqueId=6575a143-6c49-430c-950f-05910f5bba2b
+Description=IPMB_3V3
+AllowFabrication=0
+ParameterCount=0
+VariationCount=6
+Variation1=Designator=R22|UniqueId=\OOKRCGZT|Kind=1|AlternatePart=
+Variation2=Designator=R18|UniqueId=\BRAVZJNP|Kind=1|AlternatePart=
+Variation3=Designator=VT1|UniqueId=\OYESTUBR|Kind=1|AlternatePart=
+Variation4=Designator=VT2|UniqueId=\IZSJXDIP|Kind=1|AlternatePart=
+Variation5=Designator=R4|UniqueId=\NSIVAFCP|Kind=1|AlternatePart=
+Variation6=Designator=R6|UniqueId=\QZPYNWYC|Kind=1|AlternatePart=
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueId=1b658ee6-8ae5-4956-bdf4-a744246713ba
+Description=IPMB_5V
+AllowFabrication=0
+ParameterCount=0
+VariationCount=4
+Variation1=Designator=R22|UniqueId=\OOKRCGZT|Kind=1|AlternatePart=
+Variation2=Designator=R18|UniqueId=\BRAVZJNP|Kind=1|AlternatePart=
+Variation3=Designator=R5|UniqueId=\RGUIUMIJ|Kind=1|AlternatePart=
+Variation4=Designator=R2|UniqueId=\GFTMJNRP|Kind=1|AlternatePart=
+ParamVariationCount=0
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=
 Variant=[No Variations]
-OutputJobsCount=0
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Job1.OutJob
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Configuration2]
+Name=Fabrication
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Job1.OutJob
+ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Fabrication
+
+[Configuration3]
+Name=Assembly IPMB_3V3
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=IPMB_3V3
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Job1.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+
+[Configuration4]
+Name=Assembly IPMB_5V
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=IPMB_5V
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Job1.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+
+[Configuration5]
+Name=Assembly
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Job1.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+
+[Configuration6]
+Name=Custom - 1
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Job1.OutJob
+ContentTypeGUID=B953ABBB-897D-493B-96D2-85DABE1896C4
+ConfigurationType=Custom
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -426,6 +553,18 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=ForceUpdateSettings
+Configuration1_Item2=False
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|BomSetName=
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=Comment=True|Footprint=True
+Configuration1_Name5=SortOrder
+Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
+Configuration1_Name6=VisibleOrder
+Configuration1_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
 OutputType2=BOM_ReportCompare
 OutputName2=BOM Compare
 OutputDocumentPath2=
@@ -448,6 +587,8 @@ OutputName5=GOST BOM
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
+Configuration5_Name1=ForceUpdateSettings
+Configuration5_Item1=False
 OutputType6=Project History
 OutputName6=Project History
 OutputDocumentPath6=
@@ -1120,4 +1261,7 @@ ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=0|Use
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+
+[Parameter Manager Custom Column Order]
+<Schematic>=Current,"Dielectric type",ESR,Type,"Manufacturer Part Number",Freq,Group,HelpURL,"I hold","I trip",Id/Ic,"Input Voltage","Load Capacity",Manufacturer,"Max If","Max Temperature","Max Vr","Min Temperature",Net_1,Net_10,Net_2,Net_3,Net_4,Net_5,Net_6,Net_7,Net_8,Net_9,"Nominal current","Nominal Voltage","Output Current","Output Voltage",Package,"Pins number",Power,Rdc,Rows,Struct,"Supply Voltage",Tolerance,V,Value,Vds/Vce,Voltage,Vrwm,Vth
 
