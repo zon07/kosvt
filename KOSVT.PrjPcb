@@ -140,6 +140,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YRACLXPH
 
+[Document6]
+DocumentPath=KOSVT.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueId=6575a143-6c49-430c-950f-05910f5bba2b
 Description=IPMB_3V3
@@ -171,7 +188,7 @@ DocumentPath=Project Outputs for KOSVT\Design Rule Check - KOSVT-01.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for KOSVT\KOSVT_BOM_Foreign.xlsx
+DocumentPath=Project Outputs for KOSVT\KOSVT_BOM.xlsx
 DItemRevisionGUID=
 
 [Parameter1]
@@ -203,182 +220,186 @@ Name=Дата_изменения_СП
 Value=
 
 [Parameter8]
+Name=Документация0
+Value=А3#ХХХХ.687253.001#Сборочный чертеж (СБ)#СБ##1#1
+
+[Parameter9]
 Name=Код_документа
 Value=
 
-[Parameter9]
+[Parameter10]
 Name=Код_документа_PCB
 Value=
 
-[Parameter10]
+[Parameter11]
 Name=Код_документа_SCH
 Value=Э3
 
-[Parameter11]
+[Parameter12]
 Name=Литера
 Value=
 
-[Parameter12]
+[Parameter13]
 Name=Литера2
 Value=
 
-[Parameter13]
+[Parameter14]
 Name=Литера3
 Value=
 
-[Parameter14]
-Name=Наименование
-Value=Плата печатная
-
 [Parameter15]
-Name=Наименование1
-Value=Плата печатная
+Name=Наименование
+Value=КОСВТ-01
 
 [Parameter16]
+Name=Наименование1
+Value=КОСВТ-01
+
+[Parameter17]
 Name=Наименование2
 Value=
 
-[Parameter17]
+[Parameter18]
 Name=Наименование3
 Value=
 
-[Parameter18]
+[Parameter19]
 Name=Наименование_PCB
 Value=КОСВТ-01
 
-[Parameter19]
+[Parameter20]
 Name=Номер_документа_изменение
 Value=
 
-[Parameter20]
+[Parameter21]
 Name=Номер_документа_изменение_ВП
 Value=
 
-[Parameter21]
+[Parameter22]
 Name=Номер_документа_изменение_ПЭ3
 Value=
 
-[Parameter22]
+[Parameter23]
 Name=Номер_документа_изменение_СП
 Value=
 
-[Parameter23]
-Name=Обозначение
-Value=ХХХХ.687253.001
-
 [Parameter24]
+Name=Обозначение
+Value=XXXX.407529.001
+
+[Parameter25]
 Name=Обозначение_PCB
 Value=XXXX.407529.001Э3
 
-[Parameter25]
-Name=Обозначение_Код
-Value=ХХХХ.687253.001Э3
-
 [Parameter26]
+Name=Обозначение_Код
+Value=XXXX.407529.001Э3
+
+[Parameter27]
 Name=Перв.Примен.
 Value=
 
-[Parameter27]
+[Parameter28]
 Name=ПервПримен
 Value=
 
-[Parameter28]
+[Parameter29]
 Name=Порядковый_номер_изменения
 Value=
 
-[Parameter29]
+[Parameter30]
 Name=Порядковый_номер_изменения_ВП
 Value=
 
-[Parameter30]
+[Parameter31]
 Name=Порядковый_номер_изменения_ПЭ3
 Value=
 
-[Parameter31]
+[Parameter32]
 Name=Порядковый_номер_изменения_СП
 Value=
 
-[Parameter32]
+[Parameter33]
 Name=Проект
 Value=
 
-[Parameter33]
+[Parameter34]
 Name=Раздел
 Value=
 
-[Parameter34]
+[Parameter35]
 Name=Раздел_PCB
 Value=
 
-[Parameter35]
+[Parameter36]
 Name=Раздел_SCH
 Value=
 
-[Parameter36]
+[Parameter37]
 Name=Указания_изменение
 Value=
 
-[Parameter37]
+[Parameter38]
 Name=Указания_изменение_ВП
 Value=
 
-[Parameter38]
+[Parameter39]
 Name=Указания_изменение_ПЭ3
 Value=
 
-[Parameter39]
+[Parameter40]
 Name=Указания_изменение_СП
 Value=
 
-[Parameter40]
+[Parameter41]
 Name=Формат_PCB
 Value=А3
 
-[Parameter41]
+[Parameter42]
 Name=Характер_работы
 Value=
 
-[Parameter42]
+[Parameter43]
 Name=п_Доп_графа
 Value=
 
-[Parameter43]
+[Parameter44]
 Name=п_Доп_графа_Р
 Value=
 
-[Parameter44]
+[Parameter45]
 Name=п_Н_контр
 Value=
 
-[Parameter45]
+[Parameter46]
 Name=п_Н_контр_Р
 Value=
 
-[Parameter46]
+[Parameter47]
 Name=п_Пров
 Value=
 
-[Parameter47]
+[Parameter48]
 Name=п_Пров_Р
 Value=
 
-[Parameter48]
+[Parameter49]
 Name=п_Разраб
 Value=
 
-[Parameter49]
+[Parameter50]
 Name=п_Разраб_Р
 Value=
 
-[Parameter50]
+[Parameter51]
 Name=п_Т_Контр
 Value=
 
-[Parameter51]
+[Parameter52]
 Name=п_Утв
 Value=
 
-[Parameter52]
+[Parameter53]
 Name=п_Утв_Р
 Value=
 
@@ -453,6 +474,45 @@ DocumentReferenceClass1=DocumentReference
 OutputJobFileName1=Job1.OutJob
 ContentTypeGUID=B953ABBB-897D-493B-96D2-85DABE1896C4
 ConfigurationType=Custom
+
+[Generic_SmartPDF]
+AutoOpenFile=-1
+AutoOpenOutJob=-1
+
+[Generic_SmartPDFSettings]
+ProjectMode=-1
+ZoomPrecision=50
+AddNetsInformation=-1
+AddNetPins=-1
+AddNetNetLabels=-1
+AddNetPorts=-1
+ShowComponentParameters=-1
+GlobalBookmarks=0
+ExportBOM=0
+TemplateFilename=Board Stack Report.XLT
+TemplateStoreRelative=-1
+PCB_PrintColor=1
+SCH_PrintColor=0
+PrintQuality=-3
+SCH_ShowNoErc=-1
+SCH_ShowParameter=-1
+SCH_ShowProbes=-1
+SCH_ShowBlankets=-1
+SCH_NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle
+SCH_ShowNote=-1
+SCH_ShowNoteCollapsed=-1
+Wir_PrintColor=0
+Ldr_PrintColor=0
+Esd_PrintColor=0
+SCH_ExpandLogicalToPhysical=-1
+SCH_VariantName=IPMB_5V
+SCH_ExpandComponentDesignators=-1
+SCH_ExpandNetlabels=0
+SCH_ExpandPorts=0
+SCH_ExpandSheetNumber=0
+SCH_ExpandDocumentNumber=0
+SCH_HasExpandLogicalToPhysicalSheets=-1
+SaveSettingsToOutJob=-1
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -781,9 +841,9 @@ Configuration1_Item4=Type=True|Name=True
 Configuration1_Name5=SortOrder
 Configuration1_Item5=Designator=Up
 Configuration1_Name6=VisibleOrder
-Configuration1_Item6=Designator=181|Type=277|Name=194|Quantity=96|Country=99|Manufacturer=205
+Configuration1_Item6=Designator=181|Type=269|Name=234|Quantity=96|Country=99|Manufacturer=205
 Configuration1_Name7=VisibleOrder_Flat
-Configuration1_Item7=Designator=181|Type=277|Name=194|Quantity=96|Country=99|Manufacturer=205
+Configuration1_Item7=Designator=181|Type=269|Name=234|Quantity=96|Country=99|Manufacturer=205
 OutputType2=BOM_ReportCompare
 OutputName2=BOM Compare
 OutputDocumentPath2=
@@ -1414,9 +1474,9 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=ComponentsDb.DbLib/crystals.csv
-ComponentDesignItemID0=РК1009-7ВП-32000К-В  (10 пФ) КЖБД.433514.031 ТУ
-ComponentSymbolReference0=QuartzCrystal
+ComponentLibraryIdentifier0=ComponentsDb.DbLib/resistors.csv
+ComponentDesignItemID0=Резистор Р1-12 - 0,1 - 0Ом - ±1 % - У - "А" АЛЯР.434110.005 ТУ
+ComponentSymbolReference0=Resistor_b
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=0
@@ -1440,36 +1500,34 @@ ParameterName2=Country
 ParameterUpdate2=1
 ParameterName3=Description
 ParameterUpdate3=1
-ParameterName4=ESR
+ParameterName4=Group
 ParameterUpdate4=1
-ParameterName5=Freq
+ParameterName5=HelpURL
 ParameterUpdate5=1
-ParameterName6=Group
+ParameterName6=Library Reference
 ParameterUpdate6=1
-ParameterName7=HelpURL
+ParameterName7=Manufacturer
 ParameterUpdate7=1
-ParameterName8=Library Reference
+ParameterName8=Manufacturer Part Number
 ParameterUpdate8=1
-ParameterName9=Load Capacity
+ParameterName9=Name
 ParameterUpdate9=1
-ParameterName10=Manufacturer
+ParameterName10=Package
 ParameterUpdate10=1
-ParameterName11=Manufacturer Part Number
+ParameterName11=Power
 ParameterUpdate11=1
-ParameterName12=Name
+ParameterName12=Tolerance
 ParameterUpdate12=1
-ParameterName13=Package
+ParameterName13=Type
 ParameterUpdate13=1
-ParameterName14=Tolerance
+ParameterName14=Value
 ParameterUpdate14=1
-ParameterName15=Type
+ParameterName15=Voltage
 ParameterUpdate15=1
-ParameterName16=Value
-ParameterUpdate16=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=XTAL3225X07N
+ModelName0=RES 0603_1608
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]
