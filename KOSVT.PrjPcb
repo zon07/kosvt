@@ -34,8 +34,8 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
 ConstraintManagerFlow=0
 IsVirtualBomDocumentRemoved=0
-OutputPath=ProjectOutputs_KOSVT
-LogFolderPath=ProjectLogs_KOSVT
+OutputPath=ProjectOutputs
+LogFolderPath=ProjectLogs
 ManagedProjectGUID=
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
@@ -499,7 +499,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=ProjectOutputs_KOSVT
+OutputDir=ProjectOutputs
 
 [OutputGroup1]
 Name=Netlist Outputs
