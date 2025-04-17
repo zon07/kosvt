@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=
+Name=MainProject.OutJob
 Description=
 TargetOutputMedium=PDF
 VariantName=[No Variations]
@@ -89,7 +89,7 @@ Configuration3_Item6=Designator=120|Type=100|Name=100|Quantity=120|Fitted=100
 [PublishSettings]
 OutputFilePath2=Project Outputs for Free Documents\
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for Free Documents
+OutputBasePath2=ProjectOutputs_KOSVT
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -116,7 +116,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=Project Outputs for Free Documents\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for Free Documents
+OutputBasePath3=ProjectOutputs_KOSVT
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -129,7 +129,7 @@ OutputFileNameSpecial3=
 OpenOutput3=0
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=
+OutputBasePath4=ProjectOutputs_KOSVT
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
