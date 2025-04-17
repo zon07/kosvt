@@ -34,8 +34,8 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
 ConstraintManagerFlow=0
 IsVirtualBomDocumentRemoved=0
-OutputPath=ProjectOutputs
-LogFolderPath=ProjectLogs
+OutputPath=Project_Outputs
+LogFolderPath=Project_Logs
 ManagedProjectGUID=
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
@@ -410,6 +410,7 @@ DocumentReferenceClass1=DocumentReference
 OutputJobFileName1=MainProject.OutJob
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+LocalReleaseTarget=Sources_Prj
 
 [Configuration2]
 Name=Fabrication
@@ -434,6 +435,7 @@ DocumentReferenceClass1=DocumentReference
 OutputJobFileName1=Assembly.OutJob
 ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
+LocalReleaseTarget=Assembly_IPMB_3V3
 
 [Configuration4]
 Name=Assembly IPMB_5V
@@ -446,6 +448,7 @@ DocumentReferenceClass1=DocumentReference
 OutputJobFileName1=Assembly.OutJob
 ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
+LocalReleaseTarget=Assembly_IPMB_5V
 
 [Configuration5]
 Name=Assembly
@@ -458,6 +461,7 @@ DocumentReferenceClass1=DocumentReference
 OutputJobFileName1=Assembly.OutJob
 ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
+LocalReleaseTarget=Assembly_All
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
@@ -499,7 +503,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=ProjectOutputs
+OutputDir=Project_Outputs
 
 [OutputGroup1]
 Name=Netlist Outputs

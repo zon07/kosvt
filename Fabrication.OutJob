@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Fabrication.OutJob
+Name=
 Description=
 TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
@@ -89,7 +89,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=Project Outputs for Free Documents\
+OutputFilePath3=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\ProjectOutputs\
 ReleaseManaged3=1
 OutputBasePath3=ProjectOutputs
 OutputPathMedia3=
@@ -143,7 +143,7 @@ WmvQuality4=80
 [GeneratedFilesSettings]
 RelativeOutputPath2=
 OpenOutputs2=1
-RelativeOutputPath3=Project Outputs for Free Documents\
+RelativeOutputPath3=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\ProjectOutputs\
 OpenOutputs3=1
 AddToProject3=1
 TimestampFolder3=0

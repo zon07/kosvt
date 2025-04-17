@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=MainProject.OutJob
+Name=
 Description=
 TargetOutputMedium=PDF
 VariantName=[No Variations]
@@ -33,6 +33,8 @@ OutputMedium3=Folder Structure
 OutputMedium3_Type=GeneratedFiles
 OutputMedium4=Video
 OutputMedium4_Type=Multimedia
+OutputMedium5=BOM_Rus
+OutputMedium5_Type=GeneratedFiles
 OutputType1=PDF3D
 OutputName1=PDF3D
 OutputCategory1=Documentation
@@ -43,6 +45,7 @@ OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=1
 OutputEnabled1_OutputMedium3=0
 OutputEnabled1_OutputMedium4=0
+OutputEnabled1_OutputMedium5=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration1_Name1=OutputConfigurationParameter1
@@ -57,6 +60,7 @@ OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=2
 OutputEnabled2_OutputMedium3=0
 OutputEnabled2_OutputMedium4=0
+OutputEnabled2_OutputMedium5=0
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.70|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration2_Name1=OutputConfigurationParameter1
@@ -71,6 +75,7 @@ OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=1
 OutputEnabled3_OutputMedium4=0
+OutputEnabled3_OutputMedium5=1
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration3_Name1=ColumnNameFormat
@@ -87,9 +92,9 @@ Configuration3_Name6=VisibleOrder_Flat
 Configuration3_Item6=Designator=120|Type=100|Name=100|Quantity=120|Fitted=100
 
 [PublishSettings]
-OutputFilePath2=Project Outputs for Free Documents\
+OutputFilePath2=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\ProjectOutputs\
 ReleaseManaged2=1
-OutputBasePath2=ProjectOutputs_KOSVT
+OutputBasePath2=ProjectOutputs
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -114,22 +119,22 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=Project Outputs for Free Documents\
+OutputFilePath3=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\ProjectOutputs\
 ReleaseManaged3=1
-OutputBasePath3=ProjectOutputs_KOSVT
+OutputBasePath3=ProjectOutputs
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
 OutputPathOutputerPrefix3=
 OutputPathOutputerValue3=
 OutputFileName3=
-OutputFileNameMulti3=='KOSVT-01'+'_'+OutputType
+OutputFileNameMulti3=='KOSVT-01'+'_'+OutputType+'_Rus'
 UseOutputNameForMulti3=0
 OutputFileNameSpecial3=
 OpenOutput3=0
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=ProjectOutputs_KOSVT
+OutputBasePath4=ProjectOutputs
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
@@ -164,11 +169,24 @@ FFmpegPixelFormat4=0
 FFmpegQuality4=80
 WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
+OutputFilePath5=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\ProjectOutputs\
+ReleaseManaged5=1
+OutputBasePath5=ProjectOutputs
+OutputPathMedia5=
+OutputPathMediaValue5=
+OutputPathOutputer5=[Output Type]
+OutputPathOutputerPrefix5=
+OutputPathOutputerValue5=
+OutputFileName5=
+OutputFileNameMulti5=='KOSVT-01_'+OutputType+'_Rus'
+UseOutputNameForMulti5=0
+OutputFileNameSpecial5=
+OpenOutput5=1
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=Project Outputs for Free Documents\
+RelativeOutputPath2=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\ProjectOutputs\
 OpenOutputs2=0
-RelativeOutputPath3=Project Outputs for Free Documents\
+RelativeOutputPath3=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\ProjectOutputs\
 OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0
@@ -180,4 +198,14 @@ OpenIPCOutput3=0
 EnableReload3=0
 RelativeOutputPath4=
 OpenOutputs4=1
+RelativeOutputPath5=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\ProjectOutputs\
+OpenOutputs5=1
+AddToProject5=1
+TimestampFolder5=0
+UseOutputName5=0
+OpenODBOutput5=0
+OpenGerberOutput5=0
+OpenNCDrillOutput5=0
+OpenIPCOutput5=0
+EnableReload5=0
 
