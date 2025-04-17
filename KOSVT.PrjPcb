@@ -34,8 +34,8 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
 ConstraintManagerFlow=0
 IsVirtualBomDocumentRemoved=0
-OutputPath=
-LogFolderPath=
+OutputPath=ProjectOutputs_KOSVT
+LogFolderPath=ProjectLogs_KOSVT
 ManagedProjectGUID=
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
@@ -52,7 +52,7 @@ PrefsRevisionGUID=
 
 [Release]
 ReleaseTarget=1
-ReleaseFolderPath=./OutFiles
+ReleaseFolderPath=.\OutFiles
 ReleaseZipPath=[OutputPath][ProjectName].zip
 
 [Document1]
@@ -140,6 +140,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document6]
+DocumentPath=MainProject.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueId=6575a143-6c49-430c-950f-05910f5bba2b
 Description=IPMB_3V3
@@ -167,214 +184,218 @@ Variation4=Designator=R5|UniqueId=\DVDHCDQH|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
+Name=ProjectName
+Value=KOSVT-01
+
+[Parameter2]
 Name=Вид_документа
 Value=
 
-[Parameter2]
+[Parameter3]
 Name=Вид_документа_PCB
 Value=
 
-[Parameter3]
+[Parameter4]
 Name=Вид_документа_SCH
 Value=Схема электрическая принципиальная
 
-[Parameter4]
+[Parameter5]
 Name=Дата_изменения
 Value=
 
-[Parameter5]
+[Parameter6]
 Name=Дата_изменения_ВП
 Value=
 
-[Parameter6]
+[Parameter7]
 Name=Дата_изменения_ПЭ3
 Value=
 
-[Parameter7]
+[Parameter8]
 Name=Дата_изменения_СП
 Value=
 
-[Parameter8]
+[Parameter9]
 Name=Документация0
 Value=А3#ХХХХ.687253.001#Сборочный чертеж (СБ)#СБ##1#1
 
-[Parameter9]
+[Parameter10]
 Name=Код_документа
 Value=
 
-[Parameter10]
+[Parameter11]
 Name=Код_документа_PCB
 Value=
 
-[Parameter11]
+[Parameter12]
 Name=Код_документа_SCH
 Value=Э3
 
-[Parameter12]
+[Parameter13]
 Name=Литера
 Value=
 
-[Parameter13]
+[Parameter14]
 Name=Литера2
 Value=
 
-[Parameter14]
+[Parameter15]
 Name=Литера3
 Value=
 
-[Parameter15]
+[Parameter16]
 Name=Наименование
 Value=КОСВТ-01
 
-[Parameter16]
+[Parameter17]
 Name=Наименование1
 Value=КОСВТ-01
 
-[Parameter17]
+[Parameter18]
 Name=Наименование2
 Value=
 
-[Parameter18]
+[Parameter19]
 Name=Наименование3
 Value=
 
-[Parameter19]
+[Parameter20]
 Name=Наименование_PCB
 Value=КОСВТ-01
 
-[Parameter20]
+[Parameter21]
 Name=Номер_документа_изменение
 Value=
 
-[Parameter21]
+[Parameter22]
 Name=Номер_документа_изменение_ВП
 Value=
 
-[Parameter22]
+[Parameter23]
 Name=Номер_документа_изменение_ПЭ3
 Value=
 
-[Parameter23]
+[Parameter24]
 Name=Номер_документа_изменение_СП
 Value=
 
-[Parameter24]
+[Parameter25]
 Name=Обозначение
 Value=XXXX.407529.001
 
-[Parameter25]
+[Parameter26]
 Name=Обозначение_PCB
 Value=XXXX.407529.001Э3
 
-[Parameter26]
+[Parameter27]
 Name=Обозначение_Код
 Value=XXXX.407529.001Э3
 
-[Parameter27]
+[Parameter28]
 Name=Перв.Примен.
 Value=
 
-[Parameter28]
+[Parameter29]
 Name=ПервПримен
 Value=
 
-[Parameter29]
+[Parameter30]
 Name=Порядковый_номер_изменения
 Value=
 
-[Parameter30]
+[Parameter31]
 Name=Порядковый_номер_изменения_ВП
 Value=
 
-[Parameter31]
+[Parameter32]
 Name=Порядковый_номер_изменения_ПЭ3
 Value=
 
-[Parameter32]
+[Parameter33]
 Name=Порядковый_номер_изменения_СП
 Value=
 
-[Parameter33]
+[Parameter34]
 Name=Проект
 Value=
 
-[Parameter34]
+[Parameter35]
 Name=Раздел
 Value=
 
-[Parameter35]
+[Parameter36]
 Name=Раздел_PCB
 Value=
 
-[Parameter36]
+[Parameter37]
 Name=Раздел_SCH
 Value=
 
-[Parameter37]
+[Parameter38]
 Name=Указания_изменение
 Value=
 
-[Parameter38]
+[Parameter39]
 Name=Указания_изменение_ВП
 Value=
 
-[Parameter39]
+[Parameter40]
 Name=Указания_изменение_ПЭ3
 Value=
 
-[Parameter40]
+[Parameter41]
 Name=Указания_изменение_СП
 Value=
 
-[Parameter41]
+[Parameter42]
 Name=Формат_PCB
 Value=А3
 
-[Parameter42]
+[Parameter43]
 Name=Характер_работы
 Value=
 
-[Parameter43]
+[Parameter44]
 Name=п_Доп_графа
 Value=
 
-[Parameter44]
+[Parameter45]
 Name=п_Доп_графа_Р
 Value=
 
-[Parameter45]
+[Parameter46]
 Name=п_Н_контр
 Value=
 
-[Parameter46]
+[Parameter47]
 Name=п_Н_контр_Р
 Value=
 
-[Parameter47]
+[Parameter48]
 Name=п_Пров
 Value=
 
-[Parameter48]
+[Parameter49]
 Name=п_Пров_Р
 Value=
 
-[Parameter49]
+[Parameter50]
 Name=п_Разраб
 Value=
 
-[Parameter50]
+[Parameter51]
 Name=п_Разраб_Р
 Value=
 
-[Parameter51]
+[Parameter52]
 Name=п_Т_Контр
 Value=
 
-[Parameter52]
+[Parameter53]
 Name=п_Утв
 Value=
 
-[Parameter53]
+[Parameter54]
 Name=п_Утв_Р
 Value=
 
@@ -384,7 +405,9 @@ ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=
 Variant=[No Variations]
-OutputJobsCount=0
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=MainProject.OutJob
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
@@ -474,6 +497,9 @@ SCH_ExpandSheetNumber=0
 SCH_ExpandDocumentNumber=0
 SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
+
+[Generic_EDE]
+OutputDir=ProjectOutputs_KOSVT
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -977,36 +1003,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=MathWorks
-OutputName15=MathWorks (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=Orcad v7 Capture Design
-OutputName16=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD ASCII
-OutputName17=P-CAD ASCII (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=P-CAD V16 Schematic Design
-OutputName18=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
