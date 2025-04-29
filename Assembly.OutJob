@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Assembly.OutJob
+Name=
 Description=
 TargetOutputMedium=PDF
 VariantName=[No Variations]
@@ -104,16 +104,16 @@ OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [PublishSettings]
-OutputFilePath2=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\Project_Outputs\
+OutputFilePath2=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\Project_Outputs\KOSVT-01_v0.1.3\
 ReleaseManaged2=1
 OutputBasePath2=Project_Outputs
-OutputPathMedia2=
-OutputPathMediaValue2=
+OutputPathMedia2=='KOSVT-01_v'+Major_version + '.' + Minor_version + '.' + Patch_version
+OutputPathMediaValue2=='KOSVT-01_v'+Major_version + '.' + Minor_version + '.' + Patch_version
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
 OutputFileName2=Assembly.PDF
-OutputFileNameMulti2=='KOSVT-01_'+VariantName
+OutputFileNameMulti2=='KOSVT-01_v'+Major_version + '.' + Minor_version + '.' + Patch_version  +'_'+ VariantName
 UseOutputNameForMulti2=0
 OutputFileNameSpecial2==CurrentDate
 OpenOutput2=0
@@ -131,16 +131,16 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\ProjectOutputs\
+OutputFilePath3=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\Project_Outputs\KOSVT-01_v0.1.3\
 ReleaseManaged3=1
 OutputBasePath3=Project_Outputs
-OutputPathMedia3=
-OutputPathMediaValue3=
+OutputPathMedia3=='KOSVT-01_v'+Major_version + '.' + Minor_version + '.' + Patch_version
+OutputPathMediaValue3=='KOSVT-01_v'+Major_version + '.' + Minor_version + '.' + Patch_version
 OutputPathOutputer3=[Output Type]
 OutputPathOutputerPrefix3=
 OutputPathOutputerValue3=
 OutputFileName3=
-OutputFileNameMulti3=='KOSVT-01'+'_'+OutputType
+OutputFileNameMulti3=='KOSVT-01_v'+Major_version + '.' + Minor_version + '.' + Patch_version + '_' +OutputType
 UseOutputNameForMulti3=0
 OutputFileNameSpecial3=
 OpenOutput3=1
@@ -181,24 +181,24 @@ FFmpegPixelFormat4=0
 FFmpegQuality4=80
 WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
-OutputFilePath5=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\ProjectOutputs\
+OutputFilePath5=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\Project_Outputs\KOSVT-01_v0.1.3_VariantName\
 ReleaseManaged5=1
 OutputBasePath5=Project_Outputs
-OutputPathMedia5=
-OutputPathMediaValue5=
+OutputPathMedia5=='KOSVT-01_v'+Major_version + '.' + Minor_version + '.' + Patch_version  +'_'+ VariantName
+OutputPathMediaValue5=='KOSVT-01_v'+Major_version + '.' + Minor_version + '.' + Patch_version  +'_'+ VariantName
 OutputPathOutputer5=[Output Type]
 OutputPathOutputerPrefix5=
 OutputPathOutputerValue5=
 OutputFileName5=
-OutputFileNameMulti5=='KOSVT-01_'+OutputType+'_Rus'
+OutputFileNameMulti5=='KOSVT-01_v'+Major_version + '.' + Minor_version + '.' + Patch_version + '_' +OutputType
 UseOutputNameForMulti5=0
 OutputFileNameSpecial5=
 OpenOutput5=1
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\Project_Outputs\
+RelativeOutputPath2=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\Project_Outputs\KOSVT-01_v0.1.3\
 OpenOutputs2=0
-RelativeOutputPath3=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\ProjectOutputs\
+RelativeOutputPath3=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\Project_Outputs\KOSVT-01_v0.1.3\
 OpenOutputs3=1
 AddToProject3=1
 TimestampFolder3=0
@@ -210,7 +210,7 @@ OpenIPCOutput3=0
 EnableReload3=0
 RelativeOutputPath4=
 OpenOutputs4=1
-RelativeOutputPath5=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\ProjectOutputs\
+RelativeOutputPath5=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\Project_Outputs\KOSVT-01_v0.1.3_VariantName\
 OpenOutputs5=1
 AddToProject5=1
 TimestampFolder5=0
