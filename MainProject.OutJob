@@ -172,13 +172,13 @@ WmvQuality4=80
 OutputFilePath5=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\Project_Outputs\KOSVT-01_v0.1.3_VariantName\
 ReleaseManaged5=1
 OutputBasePath5=Project_Outputs
-OutputPathMedia5=='KOSVT-01_v'+Major_version + '.' + Minor_version + '.' + Patch_version  +'_'+ VariantName
-OutputPathMediaValue5=='KOSVT-01_v'+Major_version + '.' + Minor_version + '.' + Patch_version  +'_'+ VariantName
+OutputPathMedia5=='KOSVT-01_v'+Major_version + '.' + Minor_version + '.' + Patch_version
+OutputPathMediaValue5=='KOSVT-01_v'+Major_version + '.' + Minor_version + '.' + Patch_version
 OutputPathOutputer5=[Output Type]
 OutputPathOutputerPrefix5=
 OutputPathOutputerValue5=
 OutputFileName5=
-OutputFileNameMulti5=='KOSVT-01_v'+Major_version + '.' + Minor_version + '.' + Patch_version + '_'+OutputType+'_Rus'
+OutputFileNameMulti5=='KOSVT-01_v'+Major_version + '.' + Minor_version + '.' + Patch_version + '_'+OutputType
 UseOutputNameForMulti5=0
 OutputFileNameSpecial5=
 OpenOutput5=1
