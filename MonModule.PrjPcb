@@ -320,7 +320,7 @@ Value=
 
 [Parameter35]
 Name=Наименование_PCB
-Value=КОСВТ-01
+Value=
 
 [Parameter36]
 Name=Наименование3
@@ -332,11 +332,11 @@ Value=
 
 [Parameter38]
 Name=Наименование1
-Value=КОСВТ-01
+Value=
 
 [Parameter39]
 Name=Наименование
-Value=КОСВТ-01
+Value=
 
 [Parameter40]
 Name=Литера3
