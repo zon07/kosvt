@@ -38,7 +38,7 @@ OutputMedium5_Type=GeneratedFiles
 OutputType1=PDF3D
 OutputName1=PDF3D
 OutputCategory1=Documentation
-OutputDocumentPath1=KOSVT-01.PcbDoc
+OutputDocumentPath1=MonModule.PcbDoc
 OutputVariantName1=IPMB_3V3
 OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
@@ -95,13 +95,13 @@ Configuration3_Item6=Designator=120|Type=100|Name=100|Quantity=120|Fitted=100
 OutputFilePath2=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\Project_Outputs\KOSVT-01_v0.1.3\
 ReleaseManaged2=1
 OutputBasePath2=Project_Outputs
-OutputPathMedia2=='KOSVT-01_v'+Major_version + '.' + Minor_version + '.' + Patch_version
-OutputPathMediaValue2=='KOSVT-01_v'+Major_version + '.' + Minor_version + '.' + Patch_version
+OutputPathMedia2==ProjectName + '_v'+Major_version + '.' + Minor_version + '.' + Patch_version
+OutputPathMediaValue2==ProjectName + '_v'+Major_version + '.' + Minor_version + '.' + Patch_version
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
 OutputFileName2=MainProject.PDF
-OutputFileNameMulti2=='KOSVT-01_v'+Major_version + '.' + Minor_version + '.' + Patch_version  +'_'+ VariantName
+OutputFileNameMulti2==ProjectName + '_v'+Major_version + '.' + Minor_version + '.' + Patch_version  +'_'+ VariantName
 UseOutputNameForMulti2=0
 OutputFileNameSpecial2==CurrentDate
 OpenOutput2=0
@@ -128,7 +128,7 @@ OutputPathOutputer3=[Output Type]
 OutputPathOutputerPrefix3=
 OutputPathOutputerValue3=
 OutputFileName3=
-OutputFileNameMulti3=='KOSVT-01_v'+Major_version + '.' + Minor_version + '.' + Patch_version +'_'+OutputType+'_Rus'
+OutputFileNameMulti3==ProjectName + '_v'+Major_version + '.' + Minor_version + '.' + Patch_version +'_'+OutputType+'_Rus'
 UseOutputNameForMulti3=0
 OutputFileNameSpecial3=
 OpenOutput3=0
@@ -169,16 +169,16 @@ FFmpegPixelFormat4=0
 FFmpegQuality4=80
 WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
-OutputFilePath5=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\Project_Outputs\KOSVT-01_v0.1.3_VariantName\
+OutputFilePath5=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\Project_Outputs\KOSVT-01_v0.1.3\
 ReleaseManaged5=1
 OutputBasePath5=Project_Outputs
-OutputPathMedia5=='KOSVT-01_v'+Major_version + '.' + Minor_version + '.' + Patch_version
-OutputPathMediaValue5=='KOSVT-01_v'+Major_version + '.' + Minor_version + '.' + Patch_version
+OutputPathMedia5==ProjectName + '_v'+Major_version + '.' + Minor_version + '.' + Patch_version
+OutputPathMediaValue5==ProjectName + '_v'+Major_version + '.' + Minor_version + '.' + Patch_version
 OutputPathOutputer5=[Output Type]
 OutputPathOutputerPrefix5=
 OutputPathOutputerValue5=
 OutputFileName5=
-OutputFileNameMulti5=='KOSVT-01_v'+Major_version + '.' + Minor_version + '.' + Patch_version + '_'+OutputType
+OutputFileNameMulti5==ProjectName + '_v'+Major_version + '.' + Minor_version + '.' + Patch_version + '_'+OutputType
 UseOutputNameForMulti5=0
 OutputFileNameSpecial5=
 OpenOutput5=1
@@ -198,7 +198,7 @@ OpenIPCOutput3=0
 EnableReload3=0
 RelativeOutputPath4=
 OpenOutputs4=1
-RelativeOutputPath5=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\Project_Outputs\KOSVT-01_v0.1.3_VariantName\
+RelativeOutputPath5=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\Project_Outputs\KOSVT-01_v0.1.3\
 OpenOutputs5=1
 AddToProject5=1
 TimestampFolder5=0
