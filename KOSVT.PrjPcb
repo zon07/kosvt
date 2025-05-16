@@ -9,7 +9,7 @@ OpenOutputs=1
 ArchiveProject=0
 TimestampOutput=0
 SeparateFolders=0
-TemplateLocationPath=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\altium_templates\shematic_templates\
+TemplateLocationPath=.\altium_templates\shematic_templates\
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
 AllowPortNetNames=0
@@ -181,6 +181,10 @@ Variation2=Designator=R2|UniqueId=\ABFADPRE|Kind=1|AlternatePart=
 Variation3=Designator=R5|UniqueId=\DVDHCDQH|Kind=1|AlternatePart=
 Variation4=Designator=R23|UniqueId=\FGJMOVPF|Kind=1|AlternatePart=
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project_Outputs\KOSVT-01_v1.0.0\BOM\KOSVT-01_v1.0.0_BOM.xlsx
+DItemRevisionGUID=
 
 [Parameter1]
 Name=п_Утв_Р
