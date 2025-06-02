@@ -44,7 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=IPMB_3V3
+CurrentVariant=IPMB_5V
 
 [Preferences]
 PrefsVaultGUID=
@@ -162,11 +162,13 @@ UniqueId=6575a143-6c49-430c-950f-05910f5bba2b
 Description=IPMB_3V3
 AllowFabrication=0
 ParameterCount=0
-VariationCount=4
+VariationCount=6
 Variation1=Designator=R6|UniqueId=\QQTDIHQO|Kind=1|AlternatePart=
 Variation2=Designator=R8|UniqueId=\JLQCDQVP|Kind=1|AlternatePart=
 Variation3=Designator=R28|UniqueId=\RVVCLYKT|Kind=1|AlternatePart=
 Variation4=Designator=R32|UniqueId=\BTDLKKEO|Kind=1|AlternatePart=
+Variation5=Designator=VT2|UniqueId=\RVLBLBUN|Kind=1|AlternatePart=
+Variation6=Designator=VT3|UniqueId=\WLTANIMF|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [ProjectVariant2]
