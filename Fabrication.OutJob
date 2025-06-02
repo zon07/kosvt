@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=
+Name=Fabrication.OutJob
 Description=
 TargetOutputMedium=PDF
 VariantName=[No Variations]
@@ -36,7 +36,7 @@ OutputMedium4_Type=Multimedia
 OutputType1=Gerber
 OutputName1=Gerber Files
 OutputCategory1=Fabrication
-OutputDocumentPath1=KOSVT-01.PcbDoc
+OutputDocumentPath1=MonModule.PcbDoc
 OutputVariantName1=
 OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
@@ -49,7 +49,7 @@ Configuration1_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayer
 OutputType2=Board Stack Report
 OutputName2=Report Board Stack
 OutputCategory2=Fabrication
-OutputDocumentPath2=KOSVT-01.PcbDoc
+OutputDocumentPath2=MonModule.PcbDoc
 OutputVariantName2=
 OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
@@ -63,7 +63,7 @@ Configuration2_Item1=Record=LayerStackReportView|Units=Metric|ColumnsCount=18|Co
 OutputType3=NC Drill
 OutputName3=NC Drill Files
 OutputCategory3=Fabrication
-OutputDocumentPath3=KOSVT-01.PcbDoc
+OutputDocumentPath3=MonModule.PcbDoc
 OutputVariantName3=
 OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0

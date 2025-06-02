@@ -21,7 +21,7 @@ TargetOutputMedium=BOM
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Adobe PDF
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -38,7 +38,7 @@ OutputMedium5_Type=GeneratedFiles
 OutputType1=Pick Place
 OutputName1=Generates pick and place files
 OutputCategory1=Assembly
-OutputDocumentPath1=KOSVT-01.PcbDoc
+OutputDocumentPath1=MonModule.PcbDoc
 OutputVariantName1=
 OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
@@ -67,7 +67,7 @@ Configuration2_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowPr
 OutputType3=PDF3D
 OutputName3=PDF3D
 OutputCategory3=Documentation
-OutputDocumentPath3=KOSVT-01.PcbDoc
+OutputDocumentPath3=MonModule.PcbDoc
 OutputVariantName3=
 OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
