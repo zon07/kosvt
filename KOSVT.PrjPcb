@@ -44,7 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=IPMB_5V
+CurrentVariant=IPMB_3V3
 
 [Preferences]
 PrefsVaultGUID=
@@ -163,10 +163,10 @@ Description=IPMB_3V3
 AllowFabrication=0
 ParameterCount=0
 VariationCount=4
-Variation1=Designator=R4|UniqueId=\QQTDIHQO|Kind=1|AlternatePart=
-Variation2=Designator=R6|UniqueId=\JLQCDQVP|Kind=1|AlternatePart=
-Variation3=Designator=R18|UniqueId=\RVVCLYKT|Kind=1|AlternatePart=
-Variation4=Designator=R23|UniqueId=\FGJMOVPF|Kind=1|AlternatePart=
+Variation1=Designator=R6|UniqueId=\QQTDIHQO|Kind=1|AlternatePart=
+Variation2=Designator=R8|UniqueId=\JLQCDQVP|Kind=1|AlternatePart=
+Variation3=Designator=R28|UniqueId=\RVVCLYKT|Kind=1|AlternatePart=
+Variation4=Designator=R32|UniqueId=\BTDLKKEO|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -175,10 +175,10 @@ Description=IPMB_5V
 AllowFabrication=0
 ParameterCount=0
 VariationCount=4
-Variation1=Designator=R18|UniqueId=\RVVCLYKT|Kind=1|AlternatePart=
-Variation2=Designator=R2|UniqueId=\ABFADPRE|Kind=1|AlternatePart=
-Variation3=Designator=R5|UniqueId=\DVDHCDQH|Kind=1|AlternatePart=
-Variation4=Designator=R23|UniqueId=\FGJMOVPF|Kind=1|AlternatePart=
+Variation1=Designator=R28|UniqueId=\RVVCLYKT|Kind=1|AlternatePart=
+Variation2=Designator=R4|UniqueId=\ABFADPRE|Kind=1|AlternatePart=
+Variation3=Designator=R7|UniqueId=\DVDHCDQH|Kind=1|AlternatePart=
+Variation4=Designator=R32|UniqueId=\BTDLKKEO|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
