@@ -162,13 +162,11 @@ UniqueId=6575a143-6c49-430c-950f-05910f5bba2b
 Description=IPMB_3V3
 AllowFabrication=0
 ParameterCount=0
-VariationCount=6
-Variation1=Designator=VT1|UniqueId=\XBJPNPGN|Kind=1|AlternatePart=
-Variation2=Designator=VT2|UniqueId=\EJATHHKS|Kind=1|AlternatePart=
-Variation3=Designator=R4|UniqueId=\QQTDIHQO|Kind=1|AlternatePart=
-Variation4=Designator=R6|UniqueId=\JLQCDQVP|Kind=1|AlternatePart=
-Variation5=Designator=R18|UniqueId=\RVVCLYKT|Kind=1|AlternatePart=
-Variation6=Designator=R23|UniqueId=\FGJMOVPF|Kind=1|AlternatePart=
+VariationCount=4
+Variation1=Designator=R4|UniqueId=\QQTDIHQO|Kind=1|AlternatePart=
+Variation2=Designator=R6|UniqueId=\JLQCDQVP|Kind=1|AlternatePart=
+Variation3=Designator=R18|UniqueId=\RVVCLYKT|Kind=1|AlternatePart=
+Variation4=Designator=R23|UniqueId=\FGJMOVPF|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [ProjectVariant2]
