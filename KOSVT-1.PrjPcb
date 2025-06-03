@@ -44,16 +44,16 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=IPMB_3V3
+CurrentVariant=IPMB_5V
 
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Release]
-ReleaseTarget=1
+ReleaseTarget=2
 ReleaseFolderPath=[OutputPath]
-ReleaseZipPath=[OutputPath][ProjectName].zip
+ReleaseZipPath=[OutputPath][ProjectName]_v[Major_version].[Minor_version].[Patch_version].zip 
 
 [Document1]
 DocumentPath=MAIN.SchDoc
