@@ -92,10 +92,10 @@ Configuration3_Name6=VisibleOrder_Flat
 Configuration3_Item6=Designator=120|Type=120|Name=435|Quantity=138|Manufacturer=194|Analog=100|Country=100
 
 [PublishSettings]
-OutputFilePath2=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\Project_Outputs\KOSVT-01_v1.0.0\
+OutputFilePath2=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT_1\Project_Outputs\KOSVT-1_v1.0.0\
 ReleaseManaged2=1
-OutputBasePath2=
-OutputPathMedia2==ProjectName + '_v'+Major_version + '.' + Minor_version + '.' + Patch_version
+OutputBasePath2=Project_Outputs
+OutputPathMedia2=
 OutputPathMediaValue2==ProjectName + '_v'+Major_version + '.' + Minor_version + '.' + Patch_version
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
@@ -169,10 +169,10 @@ FFmpegPixelFormat4=0
 FFmpegQuality4=80
 WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
-OutputFilePath5=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\Project_Outputs\KOSVT-01_v1.0.0\
+OutputFilePath5=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT_1\Project_Outputs\KOSVT-1_v1.0.0\
 ReleaseManaged5=1
 OutputBasePath5=Project_Outputs
-OutputPathMedia5==ProjectName + '_v'+Major_version + '.' + Minor_version + '.' + Patch_version
+OutputPathMedia5=
 OutputPathMediaValue5==ProjectName + '_v'+Major_version + '.' + Minor_version + '.' + Patch_version
 OutputPathOutputer5=[Output Type]
 OutputPathOutputerPrefix5=
@@ -184,7 +184,7 @@ OutputFileNameSpecial5=
 OpenOutput5=1
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\Project_Outputs\KOSVT-01_v1.0.0\
+RelativeOutputPath2=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT_1\Project_Outputs\KOSVT-1_v1.0.0\
 OpenOutputs2=0
 RelativeOutputPath3=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\Project_Outputs\
 OpenOutputs3=0
@@ -198,7 +198,7 @@ OpenIPCOutput3=0
 EnableReload3=0
 RelativeOutputPath4=
 OpenOutputs4=1
-RelativeOutputPath5=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\Project_Outputs\KOSVT-01_v1.0.0\
+RelativeOutputPath5=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT_1\Project_Outputs\KOSVT-1_v1.0.0\
 OpenOutputs5=1
 AddToProject5=1
 TimestampFolder5=0

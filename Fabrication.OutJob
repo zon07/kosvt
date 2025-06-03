@@ -102,10 +102,10 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\Project_Outputs\ProjectName_v1.0.0\
+OutputFilePath3=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT_1\Project_Outputs\KOSVT-1_v1.0.0\
 ReleaseManaged3=1
 OutputBasePath3=Project_Outputs
-OutputPathMedia3==ProjectName + '_v' +Major_version + '.' + Minor_version + '.' + Patch_version
+OutputPathMedia3=
 OutputPathMediaValue3==ProjectName + '_v' +Major_version + '.' + Minor_version + '.' + Patch_version
 OutputPathOutputer3=[Output Type]
 OutputPathOutputerPrefix3=
@@ -156,7 +156,7 @@ WmvQuality4=80
 [GeneratedFilesSettings]
 RelativeOutputPath2=
 OpenOutputs2=1
-RelativeOutputPath3=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\Project_Outputs\ProjectName_v1.0.0\
+RelativeOutputPath3=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT_1\Project_Outputs\KOSVT-1_v1.0.0\
 OpenOutputs3=1
 AddToProject3=1
 TimestampFolder3=0
