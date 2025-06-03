@@ -38,7 +38,7 @@ OutputMedium5_Type=GeneratedFiles
 OutputType1=PDF3D
 OutputName1=PDF3D
 OutputCategory1=Documentation
-OutputDocumentPath1=KOSVT-01.PcbDoc
+OutputDocumentPath1=KOSVT-1.PcbDoc
 OutputVariantName1=IPMB_3V3
 OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
@@ -94,7 +94,7 @@ Configuration3_Item6=Designator=120|Type=120|Name=435|Quantity=138|Manufacturer=
 [PublishSettings]
 OutputFilePath2=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\Project_Outputs\KOSVT-01_v1.0.0\
 ReleaseManaged2=1
-OutputBasePath2=Project_Outputs
+OutputBasePath2=
 OutputPathMedia2==ProjectName + '_v'+Major_version + '.' + Minor_version + '.' + Patch_version
 OutputPathMediaValue2==ProjectName + '_v'+Major_version + '.' + Minor_version + '.' + Patch_version
 OutputPathOutputer2=[Output Type]

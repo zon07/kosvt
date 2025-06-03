@@ -90,7 +90,7 @@ GenerateClassCluster=0
 DocumentUniqueId=FKJVJIDT
 
 [Document3]
-DocumentPath=KOSVT-01.PcbDoc
+DocumentPath=KOSVT-1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
