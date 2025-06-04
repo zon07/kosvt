@@ -44,7 +44,6 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=IPMB_5V
 
 [Preferences]
 PrefsVaultGUID=
@@ -159,7 +158,7 @@ DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueId=6575a143-6c49-430c-950f-05910f5bba2b
-Description=IPMB_3V3
+Description=I2C_3V3
 AllowFabrication=0
 ParameterCount=0
 VariationCount=4
@@ -171,7 +170,7 @@ ParamVariationCount=0
 
 [ProjectVariant2]
 UniqueId=1b658ee6-8ae5-4956-bdf4-a744246713ba
-Description=IPMB_5V
+Description=I2C_5V
 AllowFabrication=0
 ParameterCount=0
 VariationCount=4
