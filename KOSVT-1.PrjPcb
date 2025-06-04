@@ -439,32 +439,6 @@ ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Fabrication
 
 [Configuration3]
-Name=Assembly IPMB_3V3
-ParameterCount=0
-ConstraintFileCount=0
-ReleaseItemId=
-Variant=IPMB_3V3
-OutputJobsCount=1
-DocumentReferenceClass1=DocumentReference
-OutputJobFileName1=Assembly.OutJob
-ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
-ConfigurationType=Assembly
-LocalReleaseTarget=Assembly_IPMB_3V3
-
-[Configuration4]
-Name=Assembly IPMB_5V
-ParameterCount=0
-ConstraintFileCount=0
-ReleaseItemId=
-Variant=IPMB_5V
-OutputJobsCount=1
-DocumentReferenceClass1=DocumentReference
-OutputJobFileName1=Assembly.OutJob
-ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
-ConfigurationType=Assembly
-LocalReleaseTarget=Assembly_IPMB_5V
-
-[Configuration5]
 Name=Assembly
 ParameterCount=0
 ConstraintFileCount=0
@@ -476,6 +450,30 @@ OutputJobFileName1=Assembly.OutJob
 ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
 LocalReleaseTarget=Assembly_All
+
+[Configuration4]
+Name=Assembly I2C_3V3
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=I2C_3V3
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Assembly.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+
+[Configuration5]
+Name=Assembly I2C_5V
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=I2C_5V
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Assembly.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
