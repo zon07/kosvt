@@ -125,7 +125,7 @@ PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration5_Name1=ColumnNameFormat
 Configuration5_Item1=CaptionAsName
 Configuration5_Name2=General
-Configuration5_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=True|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=altium_templates\bom_templates\BOM_Standart_tmplt_P.xlsx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1598|FormHeight=858|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|BomSetName=
+Configuration5_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=True|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=altium_templates\bom_templates\BOM_Standart_tmplt_P.xlsx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=2|FormWidth=1598|FormHeight=858|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|BomSetName=
 Configuration5_Name3=GroupOrder
 Configuration5_Item3=Type=True|Name=True
 Configuration5_Name4=VisibleOrder
@@ -265,7 +265,7 @@ OpenIPCOutput5=0
 EnableReload5=0
 RelativeOutputPath6=C:\Users\User\Desktop\GitRepos\kosvt\Project_Outputs\
 OpenOutputs6=1
-AddToProject6=1
+AddToProject6=0
 TimestampFolder6=0
 UseOutputName6=0
 OpenODBOutput6=0
