@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=
+Name=Assembly.OutJob
 Description=
 TargetOutputMedium=BOM_P
 VariantName=[No Variations]
