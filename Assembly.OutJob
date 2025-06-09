@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=
 Description=
-TargetOutputMedium=BOM
+TargetOutputMedium=BOM_P
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Adobe PDF
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -35,6 +35,8 @@ OutputMedium4=Video
 OutputMedium4_Type=Multimedia
 OutputMedium5=BOM
 OutputMedium5_Type=GeneratedFiles
+OutputMedium6=BOM_P
+OutputMedium6_Type=GeneratedFiles
 OutputType1=Pick Place
 OutputName1=Generates pick and place files
 OutputCategory1=Assembly
@@ -46,6 +48,7 @@ OutputEnabled1_OutputMedium2=0
 OutputEnabled1_OutputMedium3=1
 OutputEnabled1_OutputMedium4=0
 OutputEnabled1_OutputMedium5=0
+OutputEnabled1_OutputMedium6=0
 OutputDefault1=0
 Configuration1_Name1=OutputConfigurationParameter1
 Configuration1_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=False|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=False|DifferentFootprints=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Load Capacity,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28,Type:0|Column#18=Name:Net_7,Fixed:False,Metric:False,Visible:False,Sort:None,Position:43,Type:0|Column#19=Name:Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17,Type:0|Column#20=Name:Nominal Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47,Type:0|Column#21=Name:Vrwm,Fixed:False,Metric:False,Visible:False,Sort:None,Position:64,Type:0|Column#22=Name:Output Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49,Type:0|Column#23=Name:HelpURL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23,Type:0|Column#24=Name:Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:63,Type:0|Column#25=Name:Net_2,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38,Type:0|Column#26=Name:I hold,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24,Type:0|Column#27=Name:Nominal current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:46,Type:0|Column#28=Name:Power,Fixed:False,Metric:False,Visible:False,Sort:None,Position:52,Type:0|Column#29=Name:Net_8,Fixed:False,Metric:False,Visible:False,Sort:None,Position:44,Type:0|Column#30=Name:Net_6,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42,Type:0|Column#31=Name:Struct,Fixed:False,Metric:False,Visible:False,Sort:None,Position:56,Type:0|Column#32=Name:Vth,Fixed:False,Metric:False,Visible:False,Sort:None,Position:65,Type:0|Column#33=Name:Pins number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51,Type:0|Column#34=Name:Notes,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48,Type:0|Column#35=Name:Net_3,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39,Type:0|Column#36=Name:Freq,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20,Type:0|Column#37=Name:I trip,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25,Type:0|Column#38=Name:Name,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35,Type:0|Column#39=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:58,Type:0|Column#40=Name:Net_1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36,Type:0|Column#41=Name:Input Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27,Type:0|Column#42=Name:Max If,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31,Type:0|Column#43=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29,Type:0|Column#44=Name:Net_4,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40,Type:0|Column#45=Name:h21,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22,Type:0|Column#46=Name:Rdc,Fixed:False,Metric:False,Visible:False,Sort:None,Position:53,Type:0|Column#47=Name:Net_9,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45,Type:0|Column#48=Name:Country,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16,Type:0|Column#49=Name:Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:59,Type:0|Column#50=Name:Group,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21,Type:0|Column#51=Name:Supply Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:57,Type:0|Column#52=Name:Net_5,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41,Type:0|Column#53=Name:Dielectric type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18,Type:0|Column#54=Name:Id/Ic,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26,Type:0|Column#55=Name:Net_10,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37,Type:0|Column#56=Name:Vds/Vce,Fixed:False,Metric:False,Visible:False,Sort:None,Position:62,Type:0|Column#57=Name:SRfreq,Fixed:False,Metric:False,Visible:False,Sort:None,Position:55,Type:0|Column#58=Name:Max Vr,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33,Type:0|Column#59=Name:Rows,Fixed:False,Metric:False,Visible:False,Sort:None,Position:54,Type:0|Column#60=Name:Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50,Type:0|Column#61=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:61,Type:0|Column#62=Name:Max Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32,Type:0|Column#63=Name:Min Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34,Type:0|Column#64=Name:ESR,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19,Type:0|Column#65=Name:V,Fixed:False,Metric:False,Visible:False,Sort:None,Position:60,Type:0|Column#66=Name:Manufacturer Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30,Type:0|DocumentPath=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT\KOSVT-01.PcbDoc
@@ -60,6 +63,7 @@ OutputEnabled2_OutputMedium2=1
 OutputEnabled2_OutputMedium3=0
 OutputEnabled2_OutputMedium4=0
 OutputEnabled2_OutputMedium5=0
+OutputEnabled2_OutputMedium6=0
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration2_Name1=OutputConfigurationParameter1
@@ -75,6 +79,7 @@ OutputEnabled3_OutputMedium2=2
 OutputEnabled3_OutputMedium3=0
 OutputEnabled3_OutputMedium4=0
 OutputEnabled3_OutputMedium5=0
+OutputEnabled3_OutputMedium6=0
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType4=BOM_PartType
@@ -82,12 +87,13 @@ OutputName4=Bill of Materials
 OutputCategory4=Report
 OutputDocumentPath4=
 OutputVariantName4=
-OutputEnabled4=1
+OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
 OutputEnabled4_OutputMedium3=0
 OutputEnabled4_OutputMedium4=0
 OutputEnabled4_OutputMedium5=1
+OutputEnabled4_OutputMedium6=0
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration4_Name1=ColumnNameFormat
@@ -102,6 +108,30 @@ Configuration4_Name5=VisibleOrder
 Configuration4_Item5=Designator=120|Type=120|Name=435|Quantity=138|Manufacturer=194|Analog=100|Country=100
 Configuration4_Name6=VisibleOrder_Flat
 Configuration4_Item6=Designator=120|Type=120|Name=435|Quantity=138|Manufacturer=194|Analog=100|Country=100
+OutputType5=BOM_PartType
+OutputName5=Copy of Bill of Materials
+OutputCategory5=Report
+OutputDocumentPath5=
+OutputVariantName5=
+OutputEnabled5=1
+OutputEnabled5_OutputMedium1=0
+OutputEnabled5_OutputMedium2=0
+OutputEnabled5_OutputMedium3=0
+OutputEnabled5_OutputMedium4=0
+OutputEnabled5_OutputMedium5=0
+OutputEnabled5_OutputMedium6=1
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration5_Name1=ColumnNameFormat
+Configuration5_Item1=CaptionAsName
+Configuration5_Name2=General
+Configuration5_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=True|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=altium_templates\bom_templates\BOM_Standart_tmplt_P.xlsx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1598|FormHeight=858|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|BomSetName=
+Configuration5_Name3=GroupOrder
+Configuration5_Item3=Type=True|Name=True
+Configuration5_Name4=VisibleOrder
+Configuration5_Item4=Type=321|Name=362|Quantity=120|Country=100|Analog=100
+Configuration5_Name5=VisibleOrder_Flat
+Configuration5_Item5=Type=321|Name=362|Quantity=120|Country=100|Analog=100
 
 [PublishSettings]
 OutputFilePath2=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT_1\Project_Outputs\KOSVT-1_v1.0.0_VariantName\
@@ -194,6 +224,19 @@ OutputFileNameMulti5==ProjectName + '_v'+Major_version + '.' + Minor_version + '
 UseOutputNameForMulti5=0
 OutputFileNameSpecial5=
 OpenOutput5=1
+OutputFilePath6=C:\Users\User\Desktop\GitRepos\kosvt\Project_Outputs\
+ReleaseManaged6=1
+OutputBasePath6=Project_Outputs
+OutputPathMedia6=
+OutputPathMediaValue6=
+OutputPathOutputer6=[Output Type]
+OutputPathOutputerPrefix6=
+OutputPathOutputerValue6=
+OutputFileName6=
+OutputFileNameMulti6==ProjectName + '_v'+Major_version + '.' + Minor_version + '.' + Patch_version + '_' +OutputType + '_P'
+UseOutputNameForMulti6=0
+OutputFileNameSpecial6=
+OpenOutput6=1
 
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\Users\user\Desktop\Work\Prj_KOSVT\KOSVT_1\Project_Outputs\KOSVT-1_v1.0.0_VariantName\
@@ -220,4 +263,14 @@ OpenGerberOutput5=0
 OpenNCDrillOutput5=0
 OpenIPCOutput5=0
 EnableReload5=0
+RelativeOutputPath6=C:\Users\User\Desktop\GitRepos\kosvt\Project_Outputs\
+OpenOutputs6=1
+AddToProject6=1
+TimestampFolder6=0
+UseOutputName6=0
+OpenODBOutput6=0
+OpenGerberOutput6=0
+OpenNCDrillOutput6=0
+OpenIPCOutput6=0
+EnableReload6=0
 
