@@ -185,6 +185,10 @@ ParamVariationCount=0
 DocumentPath=Project_Outputs\Design Rule Check - KOSVT-01.html
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=Project_Outputs\Design Rule Check - KOSVT-1.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=Major_version
 Value=2
