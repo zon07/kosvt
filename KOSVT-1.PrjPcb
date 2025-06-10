@@ -186,232 +186,232 @@ DocumentPath=Project_Outputs\Design Rule Check - KOSVT-01.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=п_Утв_Р
-Value=
+Name=Major_version
+Value=2
 
 [Parameter2]
-Name=п_Утв
-Value=
+Name=Minor_version
+Value=0
 
 [Parameter3]
-Name=п_Т_Контр
-Value=
+Name=Patch_version
+Value=0
 
 [Parameter4]
-Name=п_Разраб_Р
-Value=
+Name=ProjectName
+Value=KOSVT-01
 
 [Parameter5]
-Name=п_Разраб
-Value=
+Name=Вид_документа
+Value=Э3
 
 [Parameter6]
-Name=п_Пров_Р
+Name=Вид_документа_PCB
 Value=
 
 [Parameter7]
-Name=п_Пров
-Value=
+Name=Вид_документа_SCH
+Value=Схема электрическая принципиальная
 
 [Parameter8]
-Name=п_Н_контр_Р
+Name=Дата_изменения
 Value=
 
 [Parameter9]
-Name=п_Н_контр
+Name=Дата_изменения_ВП
 Value=
 
 [Parameter10]
-Name=п_Доп_графа_Р
+Name=Дата_изменения_ПЭ3
 Value=
 
 [Parameter11]
-Name=п_Доп_графа
+Name=Дата_изменения_СП
 Value=
 
 [Parameter12]
-Name=Характер_работы
+Name=Документация0
 Value=
 
 [Parameter13]
-Name=Формат_PCB
-Value=А3
+Name=Код_документа
+Value=
 
 [Parameter14]
-Name=Указания_изменение_СП
+Name=Код_документа_PCB
 Value=
 
 [Parameter15]
-Name=Указания_изменение_ПЭ3
-Value=
+Name=Код_документа_SCH
+Value=Э3
 
 [Parameter16]
-Name=Указания_изменение_ВП
+Name=Литера
 Value=
 
 [Parameter17]
-Name=Указания_изменение
+Name=Литера2
 Value=
 
 [Parameter18]
-Name=Раздел_SCH
+Name=Литера3
 Value=
 
 [Parameter19]
-Name=Раздел_PCB
-Value=
+Name=Наименование
+Value=КОСВТ-01
 
 [Parameter20]
-Name=Раздел
-Value=
+Name=Наименование1
+Value=КОСВТ-01
 
 [Parameter21]
-Name=Проект
+Name=Наименование2
 Value=
 
 [Parameter22]
-Name=Порядковый_номер_изменения_СП
+Name=Наименование3
 Value=
 
 [Parameter23]
-Name=Порядковый_номер_изменения_ПЭ3
-Value=
+Name=Наименование_PCB
+Value=КОСВТ-01
 
 [Parameter24]
-Name=Порядковый_номер_изменения_ВП
+Name=Номер_документа_изменение
 Value=
 
 [Parameter25]
-Name=Порядковый_номер_изменения
+Name=Номер_документа_изменение_ВП
 Value=
 
 [Parameter26]
-Name=ПервПримен
+Name=Номер_документа_изменение_ПЭ3
 Value=
 
 [Parameter27]
-Name=Перв.Примен.
+Name=Номер_документа_изменение_СП
 Value=
 
 [Parameter28]
-Name=Обозначение_Код
-Value=XXXX.468332.001Э3
+Name=Обозначение
+Value=XXXX.468332.001
 
 [Parameter29]
 Name=Обозначение_PCB
 Value=XXXX.468332.001Э3
 
 [Parameter30]
-Name=Обозначение
-Value=XXXX.468332.001
+Name=Обозначение_Код
+Value=XXXX.468332.001Э3
 
 [Parameter31]
-Name=Номер_документа_изменение_СП
+Name=Перв.Примен.
 Value=
 
 [Parameter32]
-Name=Номер_документа_изменение_ПЭ3
+Name=ПервПримен
 Value=
 
 [Parameter33]
-Name=Номер_документа_изменение_ВП
+Name=Порядковый_номер_изменения
 Value=
 
 [Parameter34]
-Name=Номер_документа_изменение
+Name=Порядковый_номер_изменения_ВП
 Value=
 
 [Parameter35]
-Name=Наименование_PCB
-Value=КОСВТ-01
+Name=Порядковый_номер_изменения_ПЭ3
+Value=
 
 [Parameter36]
-Name=Наименование3
+Name=Порядковый_номер_изменения_СП
 Value=
 
 [Parameter37]
-Name=Наименование2
+Name=Проект
 Value=
 
 [Parameter38]
-Name=Наименование1
-Value=КОСВТ-01
+Name=Раздел
+Value=
 
 [Parameter39]
-Name=Наименование
-Value=КОСВТ-01
+Name=Раздел_PCB
+Value=
 
 [Parameter40]
-Name=Литера3
+Name=Раздел_SCH
 Value=
 
 [Parameter41]
-Name=Литера2
+Name=Указания_изменение
 Value=
 
 [Parameter42]
-Name=Литера
+Name=Указания_изменение_ВП
 Value=
 
 [Parameter43]
-Name=Код_документа_SCH
-Value=Э3
+Name=Указания_изменение_ПЭ3
+Value=
 
 [Parameter44]
-Name=Код_документа_PCB
+Name=Указания_изменение_СП
 Value=
 
 [Parameter45]
-Name=Код_документа
-Value=
+Name=Формат_PCB
+Value=А3
 
 [Parameter46]
-Name=Документация0
+Name=Характер_работы
 Value=
 
 [Parameter47]
-Name=Дата_изменения_СП
+Name=п_Доп_графа
 Value=
 
 [Parameter48]
-Name=Дата_изменения_ПЭ3
+Name=п_Доп_графа_Р
 Value=
 
 [Parameter49]
-Name=Дата_изменения_ВП
+Name=п_Н_контр
 Value=
 
 [Parameter50]
-Name=Дата_изменения
+Name=п_Н_контр_Р
 Value=
 
 [Parameter51]
-Name=Вид_документа_SCH
-Value=Схема электрическая принципиальная
+Name=п_Пров
+Value=
 
 [Parameter52]
-Name=Вид_документа_PCB
+Name=п_Пров_Р
 Value=
 
 [Parameter53]
-Name=Вид_документа
-Value=Э3
+Name=п_Разраб
+Value=
 
 [Parameter54]
-Name=ProjectName
-Value=KOSVT-01
+Name=п_Разраб_Р
+Value=
 
 [Parameter55]
-Name=Patch_version
-Value=0
+Name=п_Т_Контр
+Value=
 
 [Parameter56]
-Name=Minor_version
-Value=0
+Name=п_Утв
+Value=
 
 [Parameter57]
-Name=Major_version
-Value=2
+Name=п_Утв_Р
+Value=
 
 [Configuration1]
 Name=Sources
