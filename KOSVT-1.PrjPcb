@@ -162,11 +162,13 @@ UniqueId=6575a143-6c49-430c-950f-05910f5bba2b
 Description=I2C_3V3
 AllowFabrication=0
 ParameterCount=0
-VariationCount=4
-Variation1=Designator=R6|UniqueId=\QQTDIHQO|Kind=1|AlternatePart=
-Variation2=Designator=R8|UniqueId=\JLQCDQVP|Kind=1|AlternatePart=
-Variation3=Designator=R28|UniqueId=\RVVCLYKT|Kind=1|AlternatePart=
-Variation4=Designator=R32|UniqueId=\BTDLKKEO|Kind=1|AlternatePart=
+VariationCount=6
+Variation1=Designator=R10|UniqueId=\QQTDIHQO|Kind=1|AlternatePart=
+Variation2=Designator=R12|UniqueId=\JLQCDQVP|Kind=1|AlternatePart=
+Variation3=Designator=R32|UniqueId=\RVVCLYKT|Kind=1|AlternatePart=
+Variation4=Designator=R36|UniqueId=\BTDLKKEO|Kind=1|AlternatePart=
+Variation5=Designator=R26|UniqueId=\NJFKXTFF|Kind=1|AlternatePart=
+Variation6=Designator=R28|UniqueId=\ZNUHHGXF|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -174,11 +176,13 @@ UniqueId=1b658ee6-8ae5-4956-bdf4-a744246713ba
 Description=I2C_5V
 AllowFabrication=0
 ParameterCount=0
-VariationCount=4
-Variation1=Designator=R28|UniqueId=\RVVCLYKT|Kind=1|AlternatePart=
-Variation2=Designator=R4|UniqueId=\ABFADPRE|Kind=1|AlternatePart=
-Variation3=Designator=R7|UniqueId=\DVDHCDQH|Kind=1|AlternatePart=
-Variation4=Designator=R32|UniqueId=\BTDLKKEO|Kind=1|AlternatePart=
+VariationCount=6
+Variation1=Designator=R32|UniqueId=\RVVCLYKT|Kind=1|AlternatePart=
+Variation2=Designator=R7|UniqueId=\ABFADPRE|Kind=1|AlternatePart=
+Variation3=Designator=R11|UniqueId=\DVDHCDQH|Kind=1|AlternatePart=
+Variation4=Designator=R36|UniqueId=\BTDLKKEO|Kind=1|AlternatePart=
+Variation5=Designator=R26|UniqueId=\NJFKXTFF|Kind=1|AlternatePart=
+Variation6=Designator=R28|UniqueId=\ZNUHHGXF|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
