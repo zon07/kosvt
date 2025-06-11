@@ -185,14 +185,6 @@ Variation5=Designator=R26|UniqueId=\NJFKXTFF|Kind=1|AlternatePart=
 Variation6=Designator=R28|UniqueId=\ZNUHHGXF|Kind=1|AlternatePart=
 ParamVariationCount=0
 
-[GeneratedDocument1]
-DocumentPath=Project_Outputs\Design Rule Check - KOSVT-01.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project_Outputs\Design Rule Check - KOSVT-1.html
-DItemRevisionGUID=
-
 [Parameter1]
 Name=Major_version
 Value=2
