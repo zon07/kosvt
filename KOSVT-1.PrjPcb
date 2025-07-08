@@ -162,13 +162,15 @@ UniqueId=6575a143-6c49-430c-950f-05910f5bba2b
 Description=I2C_3V3
 AllowFabrication=0
 ParameterCount=0
-VariationCount=6
-Variation1=Designator=R10|UniqueId=\QQTDIHQO|Kind=1|AlternatePart=
-Variation2=Designator=R12|UniqueId=\JLQCDQVP|Kind=1|AlternatePart=
-Variation3=Designator=R32|UniqueId=\RVVCLYKT|Kind=1|AlternatePart=
-Variation4=Designator=R36|UniqueId=\BTDLKKEO|Kind=1|AlternatePart=
-Variation5=Designator=R26|UniqueId=\NJFKXTFF|Kind=1|AlternatePart=
-Variation6=Designator=R28|UniqueId=\ZNUHHGXF|Kind=1|AlternatePart=
+VariationCount=8
+Variation1=Designator=R36|UniqueId=\GFCTHNJC|Kind=1|AlternatePart=
+Variation2=Designator=R32|UniqueId=\RIQBVFCA|Kind=1|AlternatePart=
+Variation3=Designator=R28|UniqueId=\HXBIZUVE|Kind=1|AlternatePart=
+Variation4=Designator=R26|UniqueId=\PGAYUWSV|Kind=1|AlternatePart=
+Variation5=Designator=VT2|UniqueId=\RVLBLBUN|Kind=1|AlternatePart=
+Variation6=Designator=R10|UniqueId=\LFWARZKH|Kind=1|AlternatePart=
+Variation7=Designator=R12|UniqueId=\WXOGORHK|Kind=1|AlternatePart=
+Variation8=Designator=VT4|UniqueId=\WLTANIMF|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -177,12 +179,12 @@ Description=I2C_5V
 AllowFabrication=0
 ParameterCount=0
 VariationCount=6
-Variation1=Designator=R32|UniqueId=\RVVCLYKT|Kind=1|AlternatePart=
-Variation2=Designator=R7|UniqueId=\ABFADPRE|Kind=1|AlternatePart=
-Variation3=Designator=R11|UniqueId=\DVDHCDQH|Kind=1|AlternatePart=
-Variation4=Designator=R36|UniqueId=\BTDLKKEO|Kind=1|AlternatePart=
-Variation5=Designator=R26|UniqueId=\NJFKXTFF|Kind=1|AlternatePart=
-Variation6=Designator=R28|UniqueId=\ZNUHHGXF|Kind=1|AlternatePart=
+Variation1=Designator=R32|UniqueId=\RIQBVFCA|Kind=1|AlternatePart=
+Variation2=Designator=R36|UniqueId=\GFCTHNJC|Kind=1|AlternatePart=
+Variation3=Designator=R26|UniqueId=\PGAYUWSV|Kind=1|AlternatePart=
+Variation4=Designator=R28|UniqueId=\HXBIZUVE|Kind=1|AlternatePart=
+Variation5=Designator=R7|UniqueId=\QSLAHTSW|Kind=1|AlternatePart=
+Variation6=Designator=R11|UniqueId=\ACLVDGKG|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
