@@ -9,7 +9,7 @@ OpenOutputs=1
 ArchiveProject=0
 TimestampOutput=0
 SeparateFolders=0
-TemplateLocationPath=
+TemplateLocationPath=.\altium_templates\shematic_templates\
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
 AllowPortNetNames=0
@@ -44,15 +44,16 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=I2C_5V
 
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Release]
-ReleaseTarget=1
+ReleaseTarget=2
 ReleaseFolderPath=[OutputPath]
-ReleaseZipPath=[OutputPath][ProjectName].zip
+ReleaseZipPath=[OutputPath][ProjectName]_v[Major_version].[Minor_version].[Patch_version].zip
 
 [Document1]
 DocumentPath=MAIN.SchDoc
@@ -89,7 +90,7 @@ GenerateClassCluster=0
 DocumentUniqueId=FKJVJIDT
 
 [Document3]
-DocumentPath=KOSVT-01.PcbDoc
+DocumentPath=KOSVT-1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -158,41 +159,45 @@ DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueId=6575a143-6c49-430c-950f-05910f5bba2b
-Description=IPMB_3V3
+Description=I2C_3V3
 AllowFabrication=0
 ParameterCount=0
-VariationCount=6
-Variation1=Designator=VT1|UniqueId=\XBJPNPGN|Kind=1|AlternatePart=
-Variation2=Designator=VT2|UniqueId=\EJATHHKS|Kind=1|AlternatePart=
-Variation3=Designator=R4|UniqueId=\QQTDIHQO|Kind=1|AlternatePart=
-Variation4=Designator=R6|UniqueId=\JLQCDQVP|Kind=1|AlternatePart=
-Variation5=Designator=R18|UniqueId=\RVVCLYKT|Kind=1|AlternatePart=
-Variation6=Designator=R23|UniqueId=\FGJMOVPF|Kind=1|AlternatePart=
+VariationCount=8
+Variation1=Designator=R36|UniqueId=\GFCTHNJC|Kind=1|AlternatePart=
+Variation2=Designator=R32|UniqueId=\RIQBVFCA|Kind=1|AlternatePart=
+Variation3=Designator=R28|UniqueId=\HXBIZUVE|Kind=1|AlternatePart=
+Variation4=Designator=R26|UniqueId=\PGAYUWSV|Kind=1|AlternatePart=
+Variation5=Designator=VT2|UniqueId=\RVLBLBUN|Kind=1|AlternatePart=
+Variation6=Designator=R10|UniqueId=\LFWARZKH|Kind=1|AlternatePart=
+Variation7=Designator=R12|UniqueId=\WXOGORHK|Kind=1|AlternatePart=
+Variation8=Designator=VT4|UniqueId=\WLTANIMF|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [ProjectVariant2]
 UniqueId=1b658ee6-8ae5-4956-bdf4-a744246713ba
-Description=IPMB_5V
+Description=I2C_5V
 AllowFabrication=0
 ParameterCount=0
-VariationCount=4
-Variation1=Designator=R18|UniqueId=\RVVCLYKT|Kind=1|AlternatePart=
-Variation2=Designator=R2|UniqueId=\ABFADPRE|Kind=1|AlternatePart=
-Variation3=Designator=R5|UniqueId=\DVDHCDQH|Kind=1|AlternatePart=
-Variation4=Designator=R23|UniqueId=\FGJMOVPF|Kind=1|AlternatePart=
+VariationCount=6
+Variation1=Designator=R32|UniqueId=\RIQBVFCA|Kind=1|AlternatePart=
+Variation2=Designator=R36|UniqueId=\GFCTHNJC|Kind=1|AlternatePart=
+Variation3=Designator=R26|UniqueId=\PGAYUWSV|Kind=1|AlternatePart=
+Variation4=Designator=R28|UniqueId=\HXBIZUVE|Kind=1|AlternatePart=
+Variation5=Designator=R7|UniqueId=\QSLAHTSW|Kind=1|AlternatePart=
+Variation6=Designator=R11|UniqueId=\ACLVDGKG|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
 Name=Major_version
-Value=0
+Value=2
 
 [Parameter2]
 Name=Minor_version
-Value=1
+Value=0
 
 [Parameter3]
 Name=Patch_version
-Value=3
+Value=0
 
 [Parameter4]
 Name=ProjectName
@@ -436,32 +441,6 @@ ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Fabrication
 
 [Configuration3]
-Name=Assembly IPMB_3V3
-ParameterCount=0
-ConstraintFileCount=0
-ReleaseItemId=
-Variant=IPMB_3V3
-OutputJobsCount=1
-DocumentReferenceClass1=DocumentReference
-OutputJobFileName1=Assembly.OutJob
-ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
-ConfigurationType=Assembly
-LocalReleaseTarget=Assembly_IPMB_3V3
-
-[Configuration4]
-Name=Assembly IPMB_5V
-ParameterCount=0
-ConstraintFileCount=0
-ReleaseItemId=
-Variant=IPMB_5V
-OutputJobsCount=1
-DocumentReferenceClass1=DocumentReference
-OutputJobFileName1=Assembly.OutJob
-ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
-ConfigurationType=Assembly
-LocalReleaseTarget=Assembly_IPMB_5V
-
-[Configuration5]
 Name=Assembly
 ParameterCount=0
 ConstraintFileCount=0
@@ -473,6 +452,30 @@ OutputJobFileName1=Assembly.OutJob
 ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
 ConfigurationType=Assembly
 LocalReleaseTarget=Assembly_All
+
+[Configuration4]
+Name=Assembly I2C_3V3
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=I2C_3V3
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Assembly.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+
+[Configuration5]
+Name=Assembly I2C_5V
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=I2C_5V
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=Assembly.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
 
 [Generic_SmartPDF]
 AutoOpenFile=-1
@@ -839,15 +842,15 @@ Configuration1_Item1=CaptionAsName
 Configuration1_Name2=ForceUpdateSettings
 Configuration1_Item2=False
 Configuration1_Name3=General
-Configuration1_Item3=OpenExported=False|AddToProject=True|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=True|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1541|FormHeight=875|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|BomSetName=
+Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=True|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=altium_templates\bom_templates\BOM_Standart_tmplt.xlsx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=2|FormWidth=1669|FormHeight=875|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|BomSetName=
 Configuration1_Name4=GroupOrder
 Configuration1_Item4=Type=True|Name=True
 Configuration1_Name5=SortOrder
 Configuration1_Item5=Designator=Up
 Configuration1_Name6=VisibleOrder
-Configuration1_Item6=Designator=181|Type=269|Name=234|Quantity=96|Country=99|Manufacturer=205
+Configuration1_Item6=Designator=181|Type=269|Name=234|Quantity=96|Country=99|Manufacturer=154|Analog=100
 Configuration1_Name7=VisibleOrder_Flat
-Configuration1_Item7=Designator=181|Type=269|Name=234|Quantity=96|Country=99|Manufacturer=205
+Configuration1_Item7=Designator=181|Type=269|Name=234|Quantity=96|Country=99|Manufacturer=154|Analog=100
 OutputType2=BOM_ReportCompare
 OutputName2=BOM Compare
 OutputDocumentPath2=
@@ -1478,11 +1481,23 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=ComponentsDb.DbLib/digital_ics.csv
-ComponentDesignItemID0=W25Q16JVSNIQ
-ComponentSymbolReference0=W25Q16JVSNIQ
+ComponentLibraryIdentifier0=ComponentsDb.DbLib/resistors.csv
+ComponentDesignItemID0=Резистор Р1-12 - 0,1 - 1,2кОм - ±1 % - У - "А" АЛЯР.434110.005 ТУ
+ComponentSymbolReference0=Resistor_b
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=ComponentsDb.DbLib/resistors.csv
+ComponentDesignItemID1=Резистор Р1-12 - 0,1 - 10кОм - ±1 % - У - "А" АЛЯР.434110.005 ТУ
+ComponentSymbolReference1=Resistor_b
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=ComponentsDb.DbLib/resistors.csv
+ComponentDesignItemID2=Резистор Р1-12 - 0,1 - 10Ом - ±1 % - У - "А" АЛЯР.434110.005 ТУ
+ComponentSymbolReference2=Resistor_b
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
 FullReplace=0
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1492,46 +1507,50 @@ DoGraphics=1
 DoParameters=1
 DoModels=0
 AddParameters=0
-RemoveParameters=0
+RemoveParameters=1
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Comment
+ParameterName0=Analog
 ParameterUpdate0=1
-ParameterName1=Component Kind
-ParameterUpdate1=1
-ParameterName2=Country
-ParameterUpdate2=1
-ParameterName3=Description
+ParameterName1=Comment
+ParameterUpdate1=0
+ParameterName2=Component Kind
+ParameterUpdate2=0
+ParameterName3=Country
 ParameterUpdate3=1
-ParameterName4=Group
-ParameterUpdate4=1
-ParameterName5=HelpURL
-ParameterUpdate5=1
-ParameterName6=Library Reference
+ParameterName4=Description
+ParameterUpdate4=0
+ParameterName5=Group
+ParameterUpdate5=0
+ParameterName6=HelpURL
 ParameterUpdate6=1
-ParameterName7=Manufacturer
-ParameterUpdate7=1
-ParameterName8=Manufacturer Part Number
-ParameterUpdate8=1
-ParameterName9=Max Temperature
-ParameterUpdate9=1
-ParameterName10=Min Temperature
-ParameterUpdate10=1
-ParameterName11=Name
+ParameterName7=Library Reference
+ParameterUpdate7=0
+ParameterName8=Manufacturer
+ParameterUpdate8=0
+ParameterName9=Manufacturer Part Number
+ParameterUpdate9=0
+ParameterName10=Name
+ParameterUpdate10=0
+ParameterName11=Notes
 ParameterUpdate11=1
-ParameterName12=Notes
+ParameterName12=Package
 ParameterUpdate12=1
-ParameterName13=Package
+ParameterName13=Power
 ParameterUpdate13=1
-ParameterName14=Supply Voltage
+ParameterName14=Tolerance
 ParameterUpdate14=1
 ParameterName15=Type
-ParameterUpdate15=1
+ParameterUpdate15=0
+ParameterName16=Value
+ParameterUpdate16=1
+ParameterName17=Voltage
+ParameterUpdate17=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=WINBOND SOIC-8
+ModelName0=RES 0603_1608
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]
