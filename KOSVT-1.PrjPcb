@@ -187,14 +187,6 @@ Variation5=Designator=R7|UniqueId=\QSLAHTSW|Kind=1|AlternatePart=
 Variation6=Designator=R11|UniqueId=\ACLVDGKG|Kind=1|AlternatePart=
 ParamVariationCount=0
 
-[GeneratedDocument1]
-DocumentPath=Project_Outputs\Design Rule Check - KOSVT-1.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project_Outputs\BOM\KOSVT-1_v2.0.0_BOM.xlsx
-DItemRevisionGUID=
-
 [Parameter1]
 Name=п_Утв_Р
 Value=
